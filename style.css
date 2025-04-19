@@ -1,0 +1,142 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #f5f7fa;
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    margin: 0 0 10px;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hero .content span {
+    color: #ffd700;
+  }
+  
+  /* Navigation */
+  nav {
+    background: #333;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  nav li {
+    margin: 5px 15px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #ffd700;
+  }
+  
+  /* Sections */
+  .section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .colorful {
+    background: #e0ecff;
+  }
+  
+  .tags li {
+    display: inline-block;
+    background: #764ba2;
+    color: #fff;
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+  
+  /* Timeline */
+  .timeline li {
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .timeline li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #764ba2;
+  }
+  
+  /* Projects */
+  .project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    flex: 1 1 250px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .card a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  
+  /* Scroll reveal animations */
+.hidden {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease-out;
+  }
+  
+  .visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
